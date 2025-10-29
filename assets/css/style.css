@@ -13,13 +13,23 @@ body {
     height: 100vh;
 }
 
+header, main, footer {
+    width: 100vw;
+}
+
 header {
     top: 0;
     position: fixed;
 
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.profile {
+    display: flex;
+    justify-content: space-around;
     align-items: center;
 
-    width: 80vw;
+    max-width: 1000px;
 }
